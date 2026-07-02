@@ -1,0 +1,13 @@
+{
+  "updated": "2026-07-01",
+  "news": [
+    {
+      "title": "テスト記事",
+      "url": "https://example.com",
+      "category": "ニュース・その他",
+      "summary": "これはテスト用の記事です。",
+      "date": "2026-07-01",
+      "source": "テスト"
+    }
+  ]
+}
