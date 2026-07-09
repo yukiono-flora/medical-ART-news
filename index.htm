@@ -43,7 +43,7 @@ let activeCategory = "すべて";
 
 async function loadNews() {
   try {
-    const res = await fetch('news.json?t=' + Date.now());
+    const res = await fetch('https://raw.githubusercontent.com/yukiono-flora/medical-ART-news/main/news.json?t=' + Date.now());
     const data = await res.json();
     allNews = data.news || [];
     document.getElementById('updated').textContent = '最終更新：' + (data.updated || '');
