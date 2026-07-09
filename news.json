@@ -1,22 +1,4 @@
 {
-  "updated": "2026-07-03",
+  "updated": "2026-07-09",
   "news": []
-}
-function testGitHub() {
-  const testData = {
-    updated: new Date().toISOString().split("T")[0],
-    news: [
-      {
-        title: "テスト論文",
-        url: "https://europepmc.org/article/MED/12345678",
-        category: "論文・研究",
-        abstract: "これはテスト用のアブストラクトです。",
-        date: "2026-07-09",
-        source: "Europe PMC"
-      }
-    ]
-  };
-  
-  saveToGitHub(testData.news);
-  Logger.log("GitHub保存テスト完了");
 }
